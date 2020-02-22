@@ -1,0 +1,464 @@
+GET nsf_test/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET _cluster/health
+
+GET nsf_test/_mapping
+
+# 模板
+POST _scripts/test_search1
+{
+  "script": {
+    "lang": "mustache",
+    "source": {
+      "size": 20,
+      "query": {
+        "bool": {
+          "must": [
+            {
+              
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+# AwardID搜索（使用AwardID搜索则其它搜索都会无效）
+POST nsf_test/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "doc.Award.AwardID.keyword": "1902389"
+          }
+        }
+      ]
+    }
+  }
+}
+
+# 时间搜索（要为时间搜索设立模板，must和should都要有）
+POST nsf_test/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "doc.Award.MinAmdLetterDate": {
+              "gte": "01/01/2018",
+              "lte": "06/13/2019"
+            }
+          }
+        },
+        {
+          "range": {
+            "doc.Award.AwardExpirationDate": {
+              "gte": "01/01/2019",
+              "lte": "06/01/2019"
+            }
+          }
+        },
+        {
+          "range": {
+            "doc.Award.AwardEffectiveDate": {
+              "gte": "01/01/2018",
+              "lte": "06/01/2019"
+            }
+          }
+        },
+        {
+          "range": {
+            "doc.Award.Investigator.StartDate": {
+              "gte": "10/01/2018",
+              "lte": "06/01/2019"
+            }
+          }
+        }
+      ],
+      "should": [
+        {
+          "range": {
+            "doc.Award.Investigator.EndDate": {
+              "gte": "01/01/2018",
+              "lte": "06/14/2019"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+# 资助金额搜索（搜索的时候要给用户选项，使其可以选择要展示的列表字段）
+POST nsf_test/_search
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.AwardAmount"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "doc.Award.AwardAmount": {
+              "gte": 2700,
+              "lte": 10000
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金资助类型（最终要统计一下选项，供用户选择）
+POST nsf_test/_search 
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.AwardInstrument.Value"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "doc.Award.AwardInstrument.Value.keyword": "Cooperative Agreement"
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金机构
+POST nsf_test/_search
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.Organization"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "doc.Award.Organization.Directorate.LongName": {
+              "query": "Direct Education Human",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        },
+        {
+          "match": {
+            "doc.Award.Organization.Division.LongName": {
+              "query": "Direct Education Human",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "_score": {
+        "order": "desc"
+      }
+    },
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金投资组织
+POST nsf_test/_search
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.Organization"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "doc.Award.Organization.Directorate.LongName": {
+              "query": "Direct Education Human",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        },
+        {
+          "match": {
+            "doc.Award.Organization.Division.LongName": {
+              "query": "Direct Education Human",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "_score": {
+        "order": "desc"
+      }
+    },
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金负责人
+POST nsf_test/_search
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.Investigator"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "doc.Award.Investigator.FirstName": {
+              "query": "James Jones",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        },
+        {
+          "match": {
+            "doc.Award.Investigator.LastName": {
+              "query": "James Jones",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "_score": {
+        "order": "desc"
+      }
+    },
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金投资方
+POST nsf_test/_search
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.Institution"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "doc.Award.Institution.Name": {
+              "query": "Stanford",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        },
+        {
+          "match": {
+            "doc.Award.Institution.CountryName": {
+              "query": "United States",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        },
+        {
+          "match": {
+            "doc.Award.Institution.StateName": {
+              "query": "California",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        },
+        {
+          "match": {
+            "doc.Award.Institution.CityName": {
+              "query":"Stanford",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "_score": {
+        "order": "desc"
+      }
+    },
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金名称
+POST nsf_test/_search
+{
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.AwardInstrument.Value","doc.Award.AwardTitle"], 
+  "size": 20,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "doc.Award.AwardTitle":{
+              "query": "Autonomy",
+              "operator": "or",
+              "minimum_should_match": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "sort": [
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金总金额统计
+POST nsf_test/_search
+{
+  "size": 0,
+  "aggs": {
+    "stats_nsf": {
+      "stats": {
+        "field": "doc.Award.AwardAmount"
+      }
+    }
+  }
+}
+
+# 基金主分类资金分布（以主分类投资金额排序）
+POST nsf_test/_search
+{
+  "size": 0,
+  "aggs": {
+    "nsf_reference": {
+      "terms": {
+        "field": "doc.Award.ProgramReference.Text.keyword",
+        "size": 100,
+        "order": {
+          "nsf_invest.value": "desc"
+        }
+      },
+      "aggs": {
+        "nsf_invest": {
+          "sum": {
+            "field": "doc.Award.AwardAmount"
+          }
+        }
+      }
+    }
+  }
+}
+
+# 基金投资金额排名（对单个基金）
+POST nsf_test/_search
+{
+  "size": 20,
+  "_source": ["doc.Award.AwardID","doc.Award.AwardTitle","doc.Award.AwardAmount"],
+  "query": {
+    "match_all": {}
+  },
+  "sort": [
+    {
+      "doc.Award.AwardAmount": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+# 基金主分类资金分布（在某时间段内），用于计算增长率
+POST nsf_test/_search
+{
+  "size": 0,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "doc.Award.AwardEffectiveDate": {
+              "gte": "01/01/2019",
+              "lte": "01/01/2020"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "nsf_reference": {
+      "terms": {
+        "field": "doc.Award.ProgramReference.Text.keyword",
+        "size": 1000,
+        "order": {
+          "nsf_invest.value": "desc"
+        }
+      },
+      "aggs": {
+        "nsf_invest": {
+          "sum": {
+            "field": "doc.Award.AwardAmount"
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,2 @@
+docker run -p 8070:80 --name nginx-vanlink --network es_vanlink -v ${NGINXVANLINK}/www:/www -v ${NGINXVANLINK}/conf/nginx.conf:/etc/nginx/nginx.conf --privileged=true -v ${NGINXVANLINK}/conf/es.conf:/etc/nginx/conf.d/default.conf -v ${NGINXVANLINK}/logs:/var/log/nginx -v ${NGINXVANLINK}/html:/etc/nginx/html -d nginx; \
+docker network connect es_local nginx-vanlink

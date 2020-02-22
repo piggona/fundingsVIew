@@ -1,0 +1,163 @@
+PUT nsf_raw
+{
+  "settings": {
+    "number_of_shards": 3,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "nsf_type": {
+      "dynamic": true,
+      "properties": {
+        "AwardTitle": {
+          "type": "text"
+        },
+        "AwardEffectiveDate": {
+          "type":"date",
+          "format": "MM|dd|yyyy"
+        },
+        "AwardExpirationDate": {
+          "type": "date",
+          "format": "MM|dd|yyyy"
+        },
+        "AwardTotalIntnAmount": {
+          "type": "float"
+        },
+        "AwardAmount": {
+          "type":"long"
+        },
+        "AwardInstrument": {
+          "properties": {
+            "Value": {
+              "type": "keyword"
+            }
+          }
+        },
+        "Organization": {
+          "properties": {
+            "Code": {
+              "type": "keyword",
+              "index": false
+            },
+            "Directorate": {
+              "properties": {
+                "Abbreviation": "keyword",
+                "LongName": "text"
+              }
+            },
+            "Division": {
+              "properties": {
+                "Abbreviation": "keyword",
+                "LongName": "text"
+              }
+            }
+          }
+        },
+        "ProgramOfficer": {
+          "SignBlockName": "text"
+        },
+        "AbstractNarration": {
+          "type": "text",
+          "fields":{
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "MinAmdLetterDate": {
+          "type":"date",
+          "format": "MM|dd|yyyy"
+        },
+        "MaxAmdLetterDate": {
+          "type":"date",
+          "format": "MM|dd|yyyy"
+        },
+        "AwardID": {
+          "type": "keyword"
+        },
+        "ARRAAmount": {
+          "type": "long"
+        },
+        "Investigator": {
+          "type": "nested",
+          "properties": {
+            "FirstName": {
+              "type": "text",
+              "copy_to": "FullName"
+            },
+            "LastName": {
+              "type": "text",
+              "copy_to": "FullName"
+            },
+            "FullName": {
+              "type":"text"
+            },
+            "EmailAddress": {
+              "type": "text"
+            },
+            "StartDate": {
+              "type": "date",
+              "format": "MM|dd|yyyy"
+            },
+            "EndDate": {
+              "type": "date",
+              "format": "MM|dd|yyyy"
+            },
+            "RoleCode": {
+              "type": "text"
+            }
+          }
+        },
+        "Institution": {
+          "type": "nested",
+          "properties": {
+            "Name": {
+              "type": "text"
+            },
+            "CityName": {
+              "type": "keyword"
+            },
+            "ZipCode": {
+              "type": "keyword"
+            },
+            "PhoneNumber": {
+              "type": "keyword"
+            },
+            "StreetAddress": {
+              "type": "text"
+            },
+            "CountryName": {
+              "type": "keyword"
+            },
+            "StateName": {
+              "type": "keyword"
+            },
+            "StateCode": {
+              "type": "keyword"
+            }
+          }
+        },
+        "ProgramElement": {
+          "properties": {
+            "Code": {
+              "type": "keyword"
+            },
+            "Text": {
+              "type": "text"
+            }
+          }
+        },
+        "ProgramReference": {
+          "properties": {
+            "Code": {
+              "type": "keyword"
+            },
+            "Text": {
+              "type": "text"
+            }
+          }
+        }
+      }
+    }
+  }
+}

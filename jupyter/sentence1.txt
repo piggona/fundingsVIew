@@ -1,0 +1,508 @@
+Synthetic biology and nanotechnology place increasing demands on design methodologies to ensure dependable and robust operation.
+Consisting of noisy and unreliable components, these complex systems have large and often infinite state spaces that include extremely rare error states.
+Stochastic model checking techniques have demonstrated significant potential in quantitatively analyzing such system models under extremely low probability.
+Unfortunately, they generally require enumerating the model's state space, which is computationally intractable or impossible.
+Therefore, addressing these design challenges in emerging technologies requires enhancing the applicability of stochastic model checking.
+Motivated by this problem, this project investigates an automated stochastic verification framework that integrates approximate stochastic model checking and counterexample-guided rare-event simulation to improve the analysis accuracy and efficiency.
+This project focuses on verifying infinite-state continuous-time Markov chain models with rare-event properties.
+It addresses the scalability problem by first applying property-guided and on-the-fly state truncation techniques to prune unlikely states to obtain finite state representations that are amenable to stochastic model checking.
+In the case of false or indeterminate verification results, stochastic counterexamples are generated and utilized to improve the accuracy of the state reductions.
+Furthermore, it mines these critical counterexamples as automated guidance to improve the quality and efficiency for rare-event stochastic simulations.
+This verification framework will be integrated within existing state-of-the-art stochastic model checking tools, and benchmarked on a wide range of real-world case studies in synthetic biology and nanotechnology.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In this project funded by the Chemical Catalysis Program of the Chemistry Division, Professor Aaron Sadow of Iowa State University is studying the novel chemical reactivity of aluminum.
+This research supports the economy of the United States since aluminum is widely available in North America and is of value in many industries including the beverage, housing, and transportation industries.
+Of particular interest are the many useful aluminum compounds with bonds to carbon.
+Professor Sadow is developing new methods for making such aluminum-carbon bonds.
+The specific goal is to generate these bonds with newly designed catalysts that speed-up and guide the reactions to form desired products.
+Aspects of the work are challenging because typical organoaluminum compounds decompose upon contact with air and water.
+In addition to this research project, Dr. Sadow is engaged in community outreach with the goal of educating broad audiences about the challenges and opportunities of topical issues, such as green chemistry.
+The principal venue is community radio programming, which reaches both a local and national audience through a network of websites and archived shows.
+Professor Sadow also participates in an on-going seminar series on careers in chemistry, which introduces industrial and academic chemists and other scientists to undergraduate and graduate students.
+In this project, Professor Aaron Sadow of Iowa State University is studying the catalytic reactions of carbon-hydrogen (C-H) bonds with aluminum compounds to efficiently synthesize alkynyl-, vinyl-, and aryl-aluminum compounds.
+Reactions of aluminum alkyls with alkynes and alkenes are unselective without a catalyst, giving mixtures resulting from metalation, carboalumination, and hydroalumination, depending on the unsaturated reactant and aluminum reagent.
+In addition, carboaluminum, rather than alumination, is the typical pathway catalyzed by early transition metals.
+Instead, Dr. Sadow is developing catalytic methods for alumination of alkynes involving substitution of a C-H bond for C-Al bond.
+The catalytic, salt-waste-free synthesis allows the new organoaluminum species to be used in two-step, one-pot reactions and takes advantage of the polarized nucleophilic character of alkynylaluminums.
+Dr. Sadow is also investigating the reaction mechanism through kinetics, for comparison with carboalumination.
+Dr. Sadow is developing a community radio program that broadly discusses the challenges and advances made by the chemistry community toward sustainable enterprises.
+Additionally, he is organizing a lecture series for Iowa State undergraduate students that highlights challenges and technical advances in green chemistry and sustainability in academic and industrial chemistry research.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In this project, funded by the Chemical Structure, Dynamics, and Mechanisms-B Program of the Chemistry Division, Professor Michael R. Wasielewski of the Department of Chemistry at Northwestern University is developing a fundamental understanding of how to control charge and spin transport through organic molecules.
+Such control is critical to the future of electronics, computers, and quantum information science (QIS).
+The degree of control over molecular structure and properties afforded by this research makes it possible to develop molecules and materials that take advantage of electron spin changes to implement new strategies for computer of the future that may have speeds and encryption technologies far beyond the current models.
+The Wasielewski research group volunteers in the Science In The Classroom program (SITC), with 3rd/4th-graders at an elementary school in an historically under-served and diverse community in Chicago.
+Approximately one third of the classes served by SITC are multilingual, and learn English as a second language alongside the regular curriculum.
+By volunteering with the same class of students for the academic year, Northwestern students mentor and inspire young scientists.
+The research team also participates in the program "Letters to a Pre-Scientist" which focuses on creating personal connections between middle school students from underprivileged schools and scientists to encourage the younger students to consider science as a career by writing letters as a pen pals.
+Photogenerated molecular excited states and electron transfer reactions are playing an increasing role in quantum information science (QIS).
+This project will address several goals based on what are known in the QIS field as the DiVincenzo criteria, which are essential for exploiting multi-radical assemblies as spin qubits that target QIS applications.
+Professor Wasielewski and his group use two spin-selective photophysical processes to hyperpolarize electron spins to generate well-defined initial quantum states of spin qubits and determine the dephasing mechanisms of the spin qubits.
+The team then manipulates and addresses specific spin qubits to demonstrate quantum gates and uses both microwave and visible photon pulses to move (teleport) spin coherences between two sites.
+Finally, the team establishes strategies for scalable spin qubit arrays based on DNA hairpin structures.
+They use laser excitation to generate the initial hyperpolarized spin qubits and time-resolved pulse electron paramagnetic resonance (pulse-EPR) spectroscopy to observe, manipulate and control the coherent spin states of these qubits.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Jeffrey Errington and Andrew Schultz of SUNY at Buffalo are supported by an award from the Chemical Theory, Models and Computational Methods program in the Division of Chemistry to develop computational methods and tools to predict properties of complex molecular systems.
+This project is co-funded by the Computational and Data-Enabled Science and Engineering in Chemical, Bioengineering, Environmental and Transport Systems Program in the Division of Engineering.
+The project focuses on phase (gas, liquid, solid) and interfacial (e.g.
+where air and water meet) properties.
+The properties play a key role in many natural phenomena and in numerous industrial processes.
+Of particular value to scientists and engineers is an understanding of the relationship between the microscopic interactions, for example at the atomic level, and the macroscopic behavior it exhibits.
+Such information can be used to tune the molecular-level details of a system to obtain a desired behavior.
+In principle, molecular simulation provides an ideal tool for studying the phase and interfacial behaviors of complex fluids.
+Although tremendous advancements have been made in this area, there is still a huge need for efficient and effective computational methods.
+Professors Errington and Schultz and their groups are developing robust new strategies for interrogating the phase and interfacial properties of complex fluids via molecular simulation.
+Examples that illustrate the need for such methods include the design of separation technologies, energy storage devices, carbon capture strategies, and surface coatings.
+The results of this research will be implemented in software that is freely available to the broader research community.
+The focus of this research is to develop molecular simulation methods that enable one to deduce the bulk and interfacial properties of complex fluids.
+Two methodological advances are being pursued: (1) a new rigorous strategy for computing the bulk liquid-vapor saturation properties of fluids and (2) a force-based strategy to determine the spreading interface potential within an isothermal-isobaric ensemble.
+For the first, virial pressure measurements are collected at multiple densities that span the liquid-vapor coexistence region, and subsequently used to construct a volume probability distribution within the isothermal-isobaric ensemble.
+The method provides the same level of information as commonly-used flat histogram approaches, does not require molecule insertions/deletions, and can be implemented within a molecular dynamics framework.
+The second methodological advance is aimed at increasing the accessibility of the spreading interface potential method.
+The interface potential provides important insight regarding qualitative and quantitative aspects of a system's wetting behavior.
+The general approach provides a means to determine the contact angle of a liquid droplet on a solid substrate in a mother vapor.
+The project addresses challenges associated with implementing the method within the commonly-used isothermal-isobaric ensemble.
+The standard approach results in highly elongated simulation boxes that are difficult to work with in practice.
+The research team has identified a means to significantly reduce the size of the simulation box required via use of a virtual box.
+The approach leverages force-based strategies to compute the interface potential.
+When combined with previous developments, this advance provides a rigorous, efficient, and accessible approach for determining the wetting properties of model systems.
+In a third effort, tools are developed to facilitate coupling of Monte Carlo and molecular dynamics algorithms within a single molecular simulation framework.
+Such a coupling enhances the efficiency of the methods noted above.
+Specifically, the group is contributing additional Monte Carlo move types to the publically- and freely-available LAMMPS Molecular Dynamics Simulator.
+These contributions are expected to be beneficial to the broad LAMMPS user community.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Major wildfires are a growing natural hazard, posing a devastating threat to life and property.
+The 2018 wildfire season was the deadliest and most destructive wildfire season on record in California, having led to over 100 fatalities and caused more than $3.5 billion in damages.
+There is a great deficit in our understanding of how fundamental atmospheric processes and their interactions with complex terrain and fire heat can produce a rapid spread of wildfire over downslope regions of complex terrain, such as those in the southwest U.S. As a result, it remains challenging to forecast, even a few hours in advance, the gusty, extremely dry wind surges responsible for rapid fire spread over downslope regions.
+New findings from the project could be used to improve the representations of the atmospheric environmental conditions for fire weather forecasts by the U.S. Forest Service (USFS) and the National Weather Service.
+Improved fire weather forecasts have the potential to increase public safety and reduce loss of life and property.
+The research results derived from this project will enhance the contents of graduate and undergraduate courses.
+The project will educate and train graduate and undergraduate students at North Carolina A&T State University (NCAT), one of very few Historically Black Colleges and Universities conducting atmospheric science research.
+In addition, NCAT investigators plan to visit and present results to high-school teachers and students to broaden their Earth and environmental science knowledge as well as to recruit students into meteorology.
+A research and education network will be built up among the NCAT, Embry-Riddle Aeronautical University, USFS, and Argonne National Laboratory.
+In the research project, four historic and devastating wildfires that occurred in northern, central and southern California and central Arizona, as well as several significant fire events observed under real-world settings (major scientific field experiments), will be studied extensively.
+The research approach will involve simulating the complex interactions among the atmosphere, terrain, and the fire itself with state-of-art convection-permitting mesoscale computer models.
+For the field experiment case studies, very high-resolution sensors will provide observational data on the fire-atmosphere interactions for comparison with the model simulations.
+These simulation and observational techniques will enable the research team to diagnose how weather systems interact with the terrain and produce very gusty winds that in turn create a favorable environment for wildfire spread in communities on the edge of major developed regions of the southwestern U.S.
+The computer models allow the fire and winds to interact and will enable the study of atmospheric motions that contribute to the intensification and spread of these devastating wildfires.
+This will lead to better predictions of fire intensity and motion in future wildfire events.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Project Abstract
+
+Professor Ryan Jorn of Villanova University is supported by an award from the Chemical Theory, Models, and Computational Methods program in the Division of Chemistry.
+Professor Jorn develops methods to study the transport of electrons and ions at electrode surfaces, with particular focus on the reactive interfaces present in rechargeable batteries.
+While rechargeable batteries are essential to powering personal electronics, they may also play a significant role in reducing carbon emissions by powering cars.
+Several technical challenges to energy storage for transportation remain, including loss of storage capacity over time and poor rates of recharge.
+These challenges are intimately connected to the transport of ions and electrons at the molecular level.
+Unfortunately, charge transport mechanisms are poorly understood.
+Few  experiments  can access sufficiently small length and time scales at the electrode surface.
+Most computer simulations are also inadequate to describe the multiple length scales at work during battery operation.
+Studying the behavior of electrons requires using quantum mechanics to properly treat their wave-like nature.
+Such calculations, however,  are only feasible for a relatively small numbers of atoms.
+Accurately capturing the evolution of the interface through which the electron travels requires accounting for thousands of atoms for very long times.
+Professor Jorn's research uses a multi-scale approach to study these problems.
+He and his coworkers compute   molecular forces from quantum mechanics.
+They then use these forces to describe the classical motion of ions and molecules at the electrode surface.
+His work at Villanova University relies heavily on the involvement of undergraduate students who are trained on state-of-the-art simulation software and high-performance computing platforms.
+Professor Jorn also uses his research to introduce first generation and under-represented college students to computational modeling through the Center for Access, Success, and Advancement at Villanova University.
+Molecular simulations of electrochemical interfaces have previously relied on ab initio molecular dynamics (AIMD) to study chemical reactions, and classical molecular dynamics (CMD) to explore solvation phenomena.
+Regarding the former, limitations on the time scales of simulation render description of transport phenomena intractable.
+On the other hand, it is widely recognized that "off-the-shelf" force fields used in CMD fail to accurately capture polarization effects and interface structure.
+Professor Jorn's research addresses these deficiencies by employing a force-matching approach that uses information from quantum AIMD simulations to train classical molecular force fields.
+His research group explores how best to build force fields at interfaces by exploring different functional forms for intermolecular interactions and sampling high-energy configurations.
+In addition to developing force fields for interfacial processes, Professor Jorn's work includes developing enhanced sampling methods to describe the exchange of species across the electrolyte/electrode interface.
+By using a unique combination of replica exchange umbrella sampling and collective variables, his approach allows for the study of single defect migration as well as correlated mechanisms involving ion "knock-off".
+Regarding the motion of electrons, Professor Jorn's work employs a Newns-Anderson Hamiltonian coupled with ensemble scattering theory to describe the classical force on molecules during reduction.
+In adding electron transfer to classical simulations, Professor Jorn is developing a framework to study electrochemistry at a molecular level.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+With this award, the Chemical Catalysis and Chemical Synthesis Programs of the NSF Division of Chemistry are supporting the research of Professor Steven T. Diver of the State University of New York at Buffalo.
+Professor Diver is studying the development of new catalysts, the ways they react, and the use of new methods for the synthesis of biologically-active compounds such as products derived from nature (natural products).
+This project takes a new approach to catalysis inspired by enzymes.
+In organic synthesis, catalysts are used to speed up reactions and make new chemical transformations possible.
+In Nature, enzymes are protein-based catalysts that orient their reactive groups in three-dimensional space to facilitate a chemical reaction.
+Enzymes have great specificity in the starting materials they bind with as they create a microenvironment that recognizes and facilitates chemical reactions.
+In this project, Dr. Diver is positioning a well-known metal binding group inside a large, synthetic, molecular cavity.
+The cavity creates a unique chemical and spatial environment for reactions catalyzed by the bound metal.
+The environment surrounding the reactive metal center is being used to differentiate molecules based on their size.
+This approach is providing a way to gain selectivity over previously unselective chemical reactions.
+This project is educating scientists in a diverse and intellectually-stimulating research environment.
+Professor Diver is implementing a new teacher certification program designed to give new Ph.D. graduates experience in teaching that will improve outcomes at small colleges and community colleges, where quality teachers are needed.
+Additional outreach efforts at the elementary level include developing scientific awareness of molecules and their functions and uses in society.
+A major challenge in organic synthesis is the ability to differentiate reactivity between two of the same functional group.
+This award is addressing this problem in the context of cross alkene metathesis and other reactions through the development of new catalysts located inside macrocyclic cavities.
+The orientation and metal binding is provided by an N-heterocyclic carbene ligand (NHC), which is incorporated into the macrocycle.
+NHC ligands are highly versatile and found in many different transition metal complexes, including ruthenium (Ru) catalysts for alkene metathesis.
+Though a widely used and important reaction, there are limitations in cross metathesis between two alkenes that have similar reactivity.
+This project is utilizing size control, possible with enzymes, to differentiate alkenes - a new approach to the problem of selective cross alkene metathesis.
+The principle of size-selectivity is also being applied to other metal-catalyzed reactions such as palladium-catalyzed cross couplings, where size control can prevent side reactions.
+Cross coupling and alkene metathesis are two of the most important reactions for synthesizing new molecules such as medicinal compounds, molecular probes, natural products, and materials.
+Ultimately, improvements in catalysis make advanced chemical manufacturing cheaper, more predictable, and more efficient.
+In addition to these scientific broader impacts, this project facilitates the recruitment of students of diverse backgrounds, encourages science literacy in elementary schoolers, and enables a chemistry-specific teacher training program designed to improve preparedness and placement of new Ph.D graduates into college teaching careers.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Classical dynamics studies how systems change in time.
+Ergodic theory focuses on the statistical behavior of dynamical systems.
+Applications of ergodic theory are widespread: from traffic modeling to aerospace engineering and population dynamics.
+It is natural and of practical importance to generalize the role of time in a dynamical system to more complicated groups of symmetries.
+This generalized notion of dynamics leads to applications in statistical physics, number theory and geometry.
+However, new tools are needed especially in the particular case when the group of symmetries is non-amenable which means that boundary phenomena are too significant to be safely ignored.
+Non-amenable groups naturally arise in many parts of mathematics such as geometry and number theory.
+This project is concerned with developing the tools needed to analyze the statistical behavior of non-amenable group actions by generalizing ergodic theory to this context.
+The research goals of this project are: 1) Continue developing sofic entropy theory, which is a vast generalization of Kolmogorov-Sinai entropy to actions of sofic groups, a class of groups that contains all amenable groups and residually finite groups.
+One ambitious goal is to classify the mixing Markov chains over free groups using asymptotic geometric invariants of associated model spaces.
+2) Classify sofic approximations of low-dimensional groups (using geometric techniques), with an eye towards using the results to construct the first known non-sofic groups from amalgams of low-dimensional groups.
+3) Explore the limits of pointwise ergodic theorems for geometrically defined groups (e.g.
+Lie groups, CAT(0) cubulated groups, relatively hyperbolic groups) via the measured-equivalence techniques developed by the principal investigator and Nevo and the ideas behind the recent L^1-counterexample of Tao.
+Also develop new multiplicative ergodic theorems for cocycles taking values in tracial von Neumann algebras.
+4) Import tools from geometric group theory into the study of measured equivalence relations (MERs) through the use of metric bundles in place of actions, graphings in place of Cayley graphs and so on.
+More specific goals include proving analogs of the Tits alternative for MERs and classifying the normal sub-equivalence relations of low-dimensional MERs.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+With this award, funded by the Chemical Synthesis Program of the Chemistry Division, Professor Viresh Rawal of the University of Chicago is developing new methods for the chemical synthesis of complex molecules.
+New synthetic methods and strategies enable the construction of compounds that are essential for advancements in many scientific disciplines, including chemical biology and materials science.
+Such synthesis opens access to diverse compounds that help us understand biological processes.
+New synthetic methods also help chemists prepare large quantities of drugs more cheaply.
+The Rawal lab examines cycloaddition reactions, which are reactions wherein two molecules are brought together to form a ring.
+These are one of the most important families of reactions for the synthesis of intricate molecules.
+The methods allow for the creation of new compounds and provide students with a rigorous training in reaction development, and the design and synthesis of molecules, thereby preparing them for careers in academics or industry.
+Undergraduate students and high school students from the Chicago Public School system are also gaining exposure to scientific research through this award.
+They learn about the many opportunities and careers available to them in STEM fields.
+Professor Rawal is developing new cycloaddition methodologies for the synthesis of complex molecules.
+He and his students are designing novel substrates for the Diels-Alder (DA) reaction, particularly the meta-selective DA reaction, for the construction of substituted cyclohexanones that are key building blocks to many complex natural products.
+Given the tremendous need for single enantiomer compounds, with estimated global sales topping $1.3 trillion in 2018, the Rawal lab is examining chiral catalysts to render meta-selective DA reactions enantioselective.
+This work is providing ready access to important compounds, particularly compounds containing all-carbon quaternary chiral centers, that previously were difficult to synthesize.
+To demonstrate the unique power of the new chemistry, the Rawal lab is carrying out the chemical synthesis of selected, intricate natural products.
+This research program is also helping to develop human resources in science and technology through the education and training of graduate, undergraduate, and high school students.
+Importantly, this project is exposing undergraduate students and high school students in the University of Chicago Collegiate Scholars Program to career opportunities in scientific research.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In this project, funded by the Chemical Structure, Dynamics, and Mechanisms-B Program of the Chemistry Division, Professor Malcolm D. E. Forbes of the Department of Chemistry at Bowling Green State University is investigating the structure, changes (dynamics), and reactivity of free radicals.
+Free radicals are short-lived, very reactive species resulting from the fragmentation of stable molecules which have been exposed to heat or light.
+Free radicals are characterized by having unpaired electrons, in contrast to most stable molecules in their lowest energy state, which have all of their electrons paired.
+Using a specialized spectroscopic technique called time-resolved electron paramagnetic resonance, free radicals can be observed on short time scales in organized structures such as vesicles (biological cell mimics), micelles (oil droplets in water), bubbles, polymer matrices, and other supramolecular structures such as organic nanocrystals.
+The results provide a deeper understanding of entangled spin states, which have potential use in quantum computing, quantum sensing, and quantum information systems.
+The scientific impact of the work reaches the fields of medicine, quantum computing (control of highly entangled electron spin systems), coatings (thin film curing and drying), and photocatalysis and drug delivery.
+The Forbes' laboratory is active in public outreach to libraries and museums.
+They participate in a summer research program for high school students in Northwest Ohio.
+Spin wave function evolution and molecular motion are intimately connected in spectroscopic methods, especially time-resolved electron paramagnetic resonance (TREPR).
+Their dynamics can be analyzed through the use of theoretical models such as the nano-reactor model for spin-correlated radical pairs.
+A major thrust of the project is to place the radical-triplet pair mechanism (RTPM) of chemically induced electron spin polarization on a stronger theoretical footing, and in doing so make it more useful for understanding the nature of molecular motion in confined spaces on the nanoscale.
+The advantages in using RTPM spin polarization for experimental studies of molecular dynamics in both homogeneous and heterogeneous systems include the magnitude of the electron spin polarization observed in the nitroxide is directly dependent on the number of encounters it experiences with the photoexcited triplet state, providing quantitative translational diffusion information.
+The team also investigates the line shape of the nitroxide spin reporter (intensities, line widths, hyperfine couplings) gives information about polarity and viscosity, in particular rotational mobility.
+The excited triplet state is silent in the TREPR spectrum because of fast electron spin relaxation, induced by modulation of the dipolar interaction and this advantages is exploited by the team.
+Finally, neither the triplet precursor or the nitroxide are consumed during the experiment.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In this award, funded by the Chemical Structure, Dynamics and Mechanisms-A Program of the Chemistry Division, Professor Michael C. Heaven and his research group at Emory University are investigating the unusual bonding mechanisms of the element beryllium (Be).
+A common type of chemical bond is called a covalent single bond, where two electrons are shared by two atoms, each atom of the pair typically contributing one electron to the bond.
+Beryllium atoms are unusual in that they often form what are called dative covalent bonds, where both bonding electrons are provided by the other atom.
+The Heaven research group is using specialized lasers and mass spectrometers to characterize the structure and properties of small molecules containing Be and other metal atoms (e.g., BeLi,  LiBeLi, Li4Be2, where "Li" is a lithium atom).
+The chemistry of beryllium is underexplored due to its toxicity.
+However, Be and its compounds exhibit unique and useful properties.
+For example, beryllium alloys are used as lightweight structural materials due to their exceptional strength to weight ratios.
+The remarkable durability of the metal is reflected by the fact that it is used as a plasma facing material in fusion reactors.
+This research project is providing new insights into chemical bonding in general, as well as data that can be used to test new theories on bonding and help in the prediction of the properties of new Be compounds for new technological applications.
+The graduate students engaged in this project are gaining experience in both experimental and theoretical chemistry.
+Undergraduate students from the Atlanta University Center Consortium (AUCC) institutions are also involved in the project.
+This successful collaboration with AUCC institutions provides research opportunities for undergraduate students from Historically Black Colleges and Universities (HBCUs).
+Undergraduate researchers are not only receiving technical training related to Be chemistry, but also developing soft skills, such as networking, manuscript preparation and oral presentation of research results.
+At present, the experimental data needed to evaluate quantum chemical models for beryllium are lacking.
+This validation is needed to establish confidence in the computational methods used to identify compounds with valuable physical and chemical properties.
+Experimental studies of prototypical beryllium compounds are the primary objectives of this research.
+Spectroscopic techniques, including laser-induced fluorescence (LIF) and pulsed-field ionization-zero electron kinetic energy (PFI-ZEKE) are being applied to gas phase molecules and ions to obtain structural and thermodynamic properties.
+The species being examined, including LiBe (and ions LiBe(+), LiBe(-)) and LiBeLi are chosen because they have been the subjects of high-level theoretical investigations in the Heaven laboratory and by others.
+In addition to the experimental spectroscopic work, this project employs computational studies that utilize complete active space self-consistent field (CASSCF) and multi-reference configuration interaction (MRCI).
+The research provides the graduate and undergraduate students, and post-doctoral associates involved with a rich experience in advanced experimental and theoretical methods.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Catalyst Projects provide support for Historically Black Colleges and Universities to work towards establishing research capacity of faculty to strengthen science, technology, engineering and mathematics undergraduate education and research.
+It is expected that the award will further the faculty member's research capability, improve research and teaching at the institution, and involve undergraduate students in research experiences.
+This project at Elizabeth City State University will investigate the specific associations between nematodes and prokaryote communities in freshwater and marine ecological sites using marker gene-based and shotgun metagenomics sequencing.
+The project will introduce underrepresented minority students to molecular techniques, while preparing them for graduate school or entry into the STEM workforce.
+Complex biological processes are carried out through interactions of biotic and abiotic components.
+Nematodes are ubiquitous and arguably the most diverse and numerically dominant component of the meiofauna.
+Their close association with the most diverse group, the prokaryotes, would play a critical role in sediment ecological processes, however, this remains largely unexplored.
+The goal of the project is to employ a tiered approach to investigate this association and its ecological implications in 15 nematode taxa.
+An initial, phylogenetically informative marker gene-based characterization will be followed by shotgun metagenomic sequence-based functional analysis.
+Shotgun sequence data of nematodes & associated microbial communities will be used to predict community functional potential using gene and gene family functionality of recognized associations through putative metabolite profiles.
+This will be in the framework of inter- and intraspecific genetic variations and community ecological relevance in freshwater and marine environments.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In many organisms, important chemical reactions, such as defense against toxic free radicals and the biosynthesis of DNA, are performed by enzymes that require the metal manganese.
+A thorough understanding of the functions of these enzymes requires knowledge of intermediates formed during the chemical reactions.
+At present, scientists have a limited understanding of how the enzyme creates an environment around the manganese center to control the reactivity of particular intermediates.
+In this project, Professor Timothy Jackson of the University of Kansas is using synthetic chemistry to make models of these enzyme intermediates, with the goal of understanding how particular variations to the manganese environment control chemical reactivity.
+The identification of principles of reactivity for these systems are required to allow scientists to both better understand the function of the manganese enzymes and to use these enzymes as inspiration to develop synthetic counterparts.
+Professor Jackson is also actively engaged in developing public poster projects for a General Chemistry course that serve a dual purpose of displaying student learning and increasing public scientific literacy.
+This project also offers unique, professional training activities by having graduate and undergraduate students participate in joint academic-industrial meetings and workshops.
+With funding from the Chemical Structure, Dynamics, and Mechanisms B program, Professor Timothy Jackson of the University of Kansas is elucidating foundational principles governing the bond-breaking and bond-making reactions of MnIII-hydroxo and MnIII-alkylperoxo complexes.
+These complexes mimic intermediates proposed in the mechanisms of various manganese-dependent enzymes, including manganese superoxide dismutase and manganese lipoxygenase.
+X-ray diffraction, X-ray absorption, electronic absorption, and magnetic circular dichroism methods are combined with electronic structure computations to define structural and electronic properties of MnIII-hydroxo and MnIII-alkylperoxo adducts and determine how the physical properties of these complexes are modulated by Lewis acids, hydrogen-bonds, and/ or variations in supporting ligands.
+The combined experimental and computational approach is employed to develop new structure-reactivity relationships for these manganese-oxygen intermediates of biological relevance.
+Professor Jackson is actively engaged in combining STEM education and outreach by increasing public scientific literacy through the incorporation of STEM outreach projects in a General Chemistry course, in support of the broader impacts of this project.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Many machine learning problems deal with networks that encode similarities or relationships among different objects, for which observational data may be limited in extent and noisy.
+Learning the desired information requires highly efficient algorithms that can process large-scale network data and detect tenuous statistical signatures.
+This project involves modeling large-scale networks and observations, devising learning algorithms, analyzing the performance of the algorithms, deriving bounds on the possible performance of best algorithms, and deploying theoretically-grounded algorithms to real network data.
+The research aims to significantly advance the theoretical and algorithmic understanding of graphical inference and provide key enabling technologies for high-impact applications such as ordering of short DNA sub-sequences for genetic sequencing.
+Improvements in the ability to sequence DNA can accelerate the use of genomics with applications in health care.
+The associated mechanisms for broadening participation in computing include: (a) Explorations in computing and statistics for K-12 with broad participation; (b) Career and life skills guidance for graduate students at the Annual Allerton Conference on Communications, Control, and Computing; and (c) Mentoring female and minority students in research.
+The research is grouped into four interrelated areas, ranging from inference problems for single graphs, to inference involving two graphs, in order  to study classification of graphs from general families: (a) learning community structure in dynamic graphs with heavy-tailed degree distribution, specifically, in a new variation of the Barabasi-Albert preferential attachment model; (b) recovering graphical structures beyond communities, including but not limited to recovery of hidden Hamiltonian cycles arising in a genetic sequencing problem and hidden matchings in bipartite graphs arising in a particle tracking problem; (c) matching two graphs to each other by identifying vertex correspondences, in particular, matching of perturbed versions of  Erdos-Renyi random graphs and  Barabasi-Albert preferential attachment graphs; and (d) learning properties of graphs using sampling, including sampling along random walks on graphs.
+Computationally efficient algorithms that estimate the number of both local structures (e.g., edges and triangles) and global structures are designed.
+Network dynamics and subsampling, as well as inference of network structures that are not necessarily low rank or static, are addressed by employing techniques ranging from information theory, message passing, spectral and non-convex methods, and convex methods including linear, quadratic, and semi-definite relaxations.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Professor T. Daniel Crawford, of Virginia Polytechnic Institute and State University is supported by an award from the Chemical Theory, Models and Computational Methods program to develop computational tools to predict the optical properties of chiral molecules in solution.
+A chiral molecule has the same atoms connected in a different order.
+Chiral molecules cannot be super-imposed on their mirror image.
+There is a "left-handed" and a "right-handed" form each of which turns the waves of light into different directions.
+Understanding chiral molecules is especially important to the pharmaceutical industry as one chiral form may be of great medicinal value, while the other form may be of no value or toxic.
+The accurate prediction of the optical properties of chiral molecules dissolved in liquids is a daunting task for computational chemistry.
+While computer models of simple molecular properties are well established, interactions of chiral molecules with light present unique challenges even for state-of-the-art computational methods.
+In this research project, Professor Crawford and coworkers develop robust and accurate computational techniques that take less time than current methods.
+These computational tools allow researchers to understand the relationship between chiral molecular structures and their interactions with light.
+The new tools provides the chemistry community with a deeper understanding how molecules interact with light.
+This research program benefits the larger field of computational science through the education and training of graduate and undergraduate students in the fundamental theory and development of quantum chemical methods.
+Software developed during this project is included in PSI4, a widely used computational chemistry package that is freely available to the community.
+Dr. Crawford is one of the lead developers of PSI4.
+Daniel Crawford and coworkers advance the high-accuracy modeling of chiroptical properties in the liquid phase by streamlining coupled cluster theory through complementary approaches.
+They build upon reduced-scaling methods to develop production-level implementation of an "extended local-pair-natural-orbital" approach, in which the correlation domain for each pair of localized occupied orbitals is constructed based on natural orbitals computed via an approximate second-order field-perturbed density.
+The Crawford group is extending their recent collaborative work on the development of a "diagrammatic" stochastic coupled cluster approach that exhibits a hundred-fold reduction in the memory costs for the solution of high-accuracy coupled cluster methods (through quadruple excitations).
+Following their demonstration that the introduction of a time-dependent external electric field yields substantially greater wave function sparsity than that of the field-perturbed wave function, they are developing a locally correlated real-time coupled cluster approach that can take advantage of existing linear-scaling frameworks.
+Development of these new models involves numerous, well-established collaborations with both experimentalists and theorists.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In nature, solutions of wave-type equations appear in phenomena as far reaching as wave functions of quantum particles, the acoustics of concert halls, and scattering of gravitational waves.
+In these situations, there are certain fundamental frequencies and vibrational modes associated to the underlying geometry of the space.
+These frequencies and modes play an essential role in the understanding of the behavior of wave phenomena.
+They appear, for example, in the acoustical design of concert halls and the vibration of instruments.
+This project develops tools, based on propagation phenomena, to study the delicate relationship between the geometry of the space and behavior of the corresponding modes.
+This research will provide new insight into the structure of vibrational modes for general spaces.
+Many quantitative regularity results (as measured by L^p norms) are already known for spaces with non-positive curvature.
+However, these types of estimates are unavailable under less restrictive geometric assumptions.
+The main goals of this project are two fold: (1) to describe the concentration phenomena that result in L^p norm growth for individual modes, and (2) to use this understanding to produce estimates for modes and frequencies based solely on dynamical properties of the underlying manifold.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+With this award, the Chemical Synthesis Program of the Division of Chemistry is supporting the research of Professor Rick L. Danheiser of the Department of Chemistry at the Massachusetts Institute of Technology.
+In this research program, Professor Danheiser and his students are developing new methods for the chemical synthesis of cyclic organic molecules that are incorporated in the chemical structures of numerous biologically-important compounds.
+The development of highly efficient methods for the synthesis of these molecules has great value in providing improved access to compounds with important applications in medicine, materials chemistry, agriculture and electronics.
+The goal of this research program is the development of new synthetic strategies with the power to dramatically streamline the synthesis of these classes of compounds.
+The utility of these new methods is being demonstrated by their application to the synthesis of several naturally-occurring compounds that have activity as antitumor agents, but which are not available in large quantities from their sources in nature.
+The graduate students supported under this grant serve as coordinators for the MIT Outreach Program, which each year visits about 25 high schools in the New England region providing presentations on chemistry and careers in science.
+Approximately 1,200-1,500 high school students attend these presentations each year, with up to 50% of the students being members of underrepresented minority groups.
+Dr. Danheiser is also a recognized leader in chemical safety.
+This research advances the ability of chemists to develop efficient syntheses of several important classes of organic compounds including polycyclic aromatic molecules and heterocyclic systems such as indoles and pyridines.
+The methods under investigation involve mechanistically novel transformations.
+These studies are furthering the understanding of the chemistry of unusual reactive species such as strained cyclic allenes and alkynes, vinylketenes, vinylallenes, and several other classes of highly unsaturated conjugated molecules.
+From the perspective of sustainability, the methodology under development has several attractive features.
+Most of the methods are highly atom economical, i.e., all of the atoms of the reactants are incorporated in the products, minimizing the generation of chemical waste.
+In addition, most of the new cycloadditions are triggered simply by heat or light, avoiding the need for even catalytic amounts of reagents (especially heavy metal catalysts).
+Synthesis is often described as the "enabling technology" of chemistry.
+The synthetic methods provide researchers in both academia and industry with new tools to design and make heterocyclic compounds with applications in medicine, agriculture, electronics, and other areas.
+The graduate students supported under this program receive training to develop their skills as synthetic chemists, in scientific ethics, and in developing their oral and written communication skills.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+The award seeks to address serious persistent challenges in providing process feedback to better control and fully automate the oxyfuel cutting process.
+Though it is more than a century old, oxyfuel's (or 'flame-cutting's') unparalleled performance on thick steel has rendered it an enduring favorite in shipyards, building construction, rail, defense, and countless other heavy industries.
+The harsh operating environment (open flames, extreme heat) limit the ability of contemporary sensor suites to provide reliable data essential for process feedback control and automation.
+A potential solution to this problem is motivated by preliminary measurements demonstrating that electrical events called 'ion currents' associated with the flame itself can reliably indicate vital process states.
+The research will probe the underlying physics of the flame via modeling and experimental efforts.
+If successful the work could realize reliable cost-effective control and automation of the oxyfuel cutting process, a capability of great interest to many core US industries involved in construction, and major equipment manufacture for defense and energy applications.
+This is a collaborative research, whereby the experimental work will be undertaken at a predominantly undergraduate institute, while most of the modeling efforts will be conducted at the partner university.
+Engaging undergraduate students in industrially relevant research projects will hopefully encourage and promote advanced manufacturing beyond those immediately involved, and encourage broader participation.
+Collaboration with the partner university and the industrial partner, IHT-Automation, will also increase the workforce preparedness of both the graduate student and undergraduate students working on this project.
+This work tests the validity of a reduced-order ion transport model that considers standoff distance, work-surface/kerf chemical activity, and flame chemical activity with respect to the resulting current-voltage characteristic between the oxyfuel cutting torch and the workpiece.
+A novel spinning disc Langmuir probe technique will establish a spatially resolved map for the ion densities in the flame.
+Using these data as a reference, a multi-dimensional computational fluid dynamics simulation will be built on recently developed reduced chemical kinetic models to fully resolve the formation and transport of charged species throughout the flow.
+Subsequent analysis of the modeling and experimental results will validate or reject a highly simplified one-dimensional transport model relating the current-voltage characteristic of the flame to critical events.
+These include drift in standoff, ready-to-pierce, pierce success/failure, loss-of-cut prediction, drift in fuel/oxygen ratio, flameout, and potentially others.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+With this award, the Chemical Structure, Dynamics and Mechanisms (CSDM-A) Program in the Division of Chemistry is funding Professors Igor Rubtsov and Alexander Burin of Tulane University to investigate unusually rapid movement of energy in molecules, so-called "ballistic energy transport."
+Most often energy (as heat) is transported slowly through materials through the random motion of electrons and atoms making up the material (this is called "thermal diffusion").
+Professor Rubtsov's research group has discovered systems where energy deposited in long molecules is rapidly transferred to distant locations, not unlike a bullet or projectile.
+This anomalous transfer of energy may help scientists discover new materials with improved thermal transport properties.
+The graduate and undergraduate students working on this project are receiving training in optical science, laser spectroscopy and quantum theory.
+The PI and co-PI participate in a number of educational activities on their campus, including the Tulane Louis Stokes Louisiana Alliance for Minority Participation (LS-LAMP) Summer Undergraduate Research Training Program, which provides undergraduate students from groups underrepresented in science with authentic research experiences.
+Professors Igor Rubtsov and Alexander Burin and their respective research groups are combining ultrafast laser spectroscopy (relaxation-assisted two-dimensional infrared spectroscopy (2DIR)) with theoretical modeling to develop a better understanding of how the very rapid energy transport over molecularly-significant distances occurs.
+Some of the questions that these scientists hope to answer include: What are the main factors determining the speed of ballistic transport and how to increase its efficiency?
+How do the transport parameters, such as efficiency, speed, band selection, and cooling rate, depend on the environment and temperature?
+Can these transport parameters be controlled by external stimuli and how to design molecules for such control?
+Can the ballistic transport be efficient against the direction of thermal gradient?
+Among the factors affecting transport to be examined are the primary and secondary chain structure, chain architecture, the nature and energy of the source vibrational mode, and the temperature.
+These studies are identifying the most likely transport mechanisms and, as such, will likely suggest ways of reducing losses for ballistic energy transport and directing energy to specific targets.
+The ballistic transport mechanism is considered as a principal component of energy transport in molecules, especially for molecules featuring functional groups with repeating units, which are very common.
+These studies are helping us understanding how to use the ballistic transport and how to manipulate its outcome.
+Establishing the fundamental principles needed to make the process either fast and efficient or slow and inefficient could impact a broad class of problems that take center stage in nanoscience and molecular electronics.
+In addition to the aforementioned training and outreach activities, this project includes the the designing of a novel undergraduate course that incorporates the knowledge obtained in the program and implements an experimental exercise on 2DIR  spectroscopy.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+This funding is to support U.S. based STEM students to travel to, and participate in, an international conference of the Clay Minerals Society (CMS), joint with the European Clay Conference.
+The benefits to society include exposure of U.S. students to diverse groups of scientists, interacting via Workshops and Field Trips in additional to the formal technical program.
+The reason for this joint meeting is to expand the interactions of U.S. clay scientists, largely funded by the National Science Foundation, with other nations, and to be aware of advances made by clay scientists funded by European and Asian Science Foundations.
+This international conference convenes clay scientists worldwide to share research progress, and to question, dispute, defend, and collaborate on research questions at the forefront of clay science research that benefits the U.S. public.
+This international conference is well-known for promoting the science of U.S. based researchers, who learn from the research of international scientists as they present their research progress.
+The goal is to benefit the science and education of U.S. students, and in doing so to promote successful clay science research worldwide, which benefits the U.S. public by producing future scientists that are knowledgeable of international colleagues and research advances.
+The support will assist U.S. based students with travel expenses to attend the Euroclay 2019 conference held in Paris, France.
+This international conference will promote student interaction with worldwide leaders in the field of low-temperature geochemistry and geobiology, with specific emphasis on scientific research involving clays and clay minerals.
+Assistance with the student travel, accommodation and registration fees for the Conference, Workshops and Field trips will technologically advance STEM education via a variety of instructional venues including: Field Trips to: 1) study a classical field area of the Kimmeridgian and Tithonian mudrocks in the Boulonnais related to energy resources, 2) visit research facilities for next generation mineral research including the ANDREA underground Deep Geological Repository for High-Level nuclear Waste in a claystone, and to the SOLEIL, a state-of-the-art synchrotron facility employing electromagnetic radiation over wavelengths from infrared to X-rays, 3) attend historical tours of Marie Curie?s life and contributions to scientific methods upon which modern clay science was developed.
+Workshops include 1) Advances in bentonite research: from the mine to smectite characterization and 2) Clay minerals and catalysis.
+Over 25 technical sessions will be presented over 5 days focusing on modern clay science advances from energy resources to mineralogy, modeling of nanoparticles, environmental pollutants, critical zone research, clays and the origins of life, diagenesis, geomaterials engineering, photochemistry and functionalization of clays for human health.
+All of these topics are a focus of NSF funded research and provide students a showcase for research advances on an international stage.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+The pollution caused by plastic waste lingering on the Earth's surface is a problem of massive scale.
+A key challenge in replacing current nondegradable plastics with those that are degradable is simple economics: the raw materials needed to make degradable plastics are often more expensive than those used in today's nondegradable plastics.
+Raw materials that are inexpensive, readily available, and have low environmental impact are thus highly desirable in the quest for sustainability.
+In this project, Dr. Jia and his team at the University of Akron are developing catalysts that produce plastics that are degradable in the environment and derived from low-cost raw materials.
+The catalysts are based on the earth-abundant metal, nickel, adding another sustainable feature to his group's research.
+Dr. Jia is actively engaged in outreach activities to engage students in science, technology, engineering and mathematics (STEM) disciplines.
+These activities include summer research internships in Dr. Jia's laboratory and are directed at providing scientific research opportunities for high school students, in particular those who are economically underprivileged, thereby encouraging their interest in STEM careers.
+With funding from the Chemical Catalysis Program of the NSF Division of Chemistry, Dr. Jia of the University of Akron is developing novel catalytic carbonylative polymerizations for the synthesis of polymers with various organic carbonyl functional groups in their backbones from co-monomers with vastly dissimilar reactivities (e.g., ethylene and ethylene oxide).
+The research is focusing on the mechanistic understanding of these catalytic polymerizations, the development of nickel catalysts following zwitterionic design principles, and the evaluation of the performance of the new catalysts.
+Dr. Jia is actively engaged in STEM outreach programs.
+His outreach activities focus on providing opportunities to students with economically underprivileged backgrounds and recruiting them into STEM fields.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Michael Gruenwald at the University of Utah is supported by an award from the Chemical Theory, Models and Computational Methods (CTMC) Program in the Chemistry Division to perform theoretical and computational research on the crystallization of chiral molecules.
+Objects are called chiral if they cannot be superimposed with their mirror images -- just like the left and right hands of humans.
+Many molecules such as amino acids (in DNA) and sugars that are important for the functions of the human body are chiral.
+They exist in right-handed and left-handed pairs, called enantiomers.
+Notably, when it comes to medicine, only one enantiomer is wanted in many drug applications.
+Often one chiral form is beneficial and the other may have no activity or may be harmful.
+Laboratory syntheses of drugs frequently result only in mixtures, and it is difficult and costly to separate enantiomers.
+For a small fraction of drug molecules, crystallization can be used to produce solids from solution that contain only one of the enantiomers.
+Crystallization, when it works, separates entantiomers cheaply and efficiently.
+The Gruenwald research group is exploring separations that use crystallization to understand how they are guided by such aspects as molecular shape and interaction forces.
+Computational models are being developed to help predict when crystallization to form pure enantiomers will happen; This understanding has great potential value for drug development and other chemical syntheses.
+The models at the heart of this work are used in extensive educational outreach to introduce chemical principles to young students.
+An educational workshop is being created that leverages the strong visual connections between chiral molecules, their crystal structures, and artwork by M.C.
+Escher.
+Research supported by this award aims to understand why racemic or other mixtures of chiral molecules in solution spontaneously form enantiopure crystals.
+Molecular models and computational methods are being developed to reveal the driving forces and guiding principles for the formation of both enantiopure and racemic crystals.
+Computationally efficient models are used to consider a broad range of molecular shapes and interactions within molecular dynamics computer simulations, including specific methods of trajectory sampling as well as coarse-graining.
+Large data sets of computational crystallization experiments are created, and models will be characterized according to their propensity to form enantiopure or racemic crystals.
+Of particular interest is the development of computational methods that can enumerate all low-energy crystal structures of these models and thus determine the thermodynamic landscape for chiral crystallization.
+By determining distributions of small molecular clusters, fundamental differences in the nucleation dynamics of enantiopure and racemic crystals can be identified.
+Statistical models are being developed that allow one to predict the likelihood of enantiopure crystallization from knowledge of racemic and enantiopure crystal structures.
+One ultimate aim is to inform computational screening procedures to pre-determine the likelihood of a racemic mixture to separate and thus to allow the rational synthetic modification of molecules to enhance the separation.
+Another is for the molecular models and methods of crystal structure enumeration developed here to be useful for future studies of the self-assembly of chiral and non-chiral building blocks on different length scales, including proteins and inorganic nanostructures.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Much of our view of mantle evolution is shaped by our current knowledge of mantle convection and plume dynamics; examples include hotspot volcanism--including large igneous provinces--and mantle mixing.
+By gaining a deeper understanding of how, where, and why plumes form, and their composition and their relationship to the deep interior's large low shear wave velocity structures (LLSVPs) under Africa and the Pacific, the PIs will make a significant step towards understanding the dynamical and geochemical evolution of the mantle.
+Their efforts should provide a basis to better understand the three-dimensional flow structure surrounding LLSVPs and where, how, and why plumes form.
+This may help answer the question: How is the relationship between plumes and LLSVPs reflected in hotspot lavas such as those found in Hawaii?
+The new research directions will enrich cross-fertilization between the fields of mantle dynamics and geochemistry and contribute to the growing body of work on mantle plumes and LLSVPs.
+The PIs are engaged in a number of activities aimed at education and training at all levels.
+The PIs have and will continue to engage undergraduate students, including those from underrepresented groups in their research activities.
+As part of this proposal the PIs aim to augment the content associated with related Wikipedia entries and develop a series of educational films to post on specifically dedicated YouTube channels.
+The lab lends itself to site visits by elementary, middle school and high school students.
+PI Lithgow-Bertelloni intends to continue providing lab tours and opportunities for elementary and middle-school children to be involved in simple experiments.
+Amongst the most enigmatic aspects of the Earth's deep interior are the anomalous large low shear wave velocity provinces (LLSVPs) under Africa and the Pacific.
+The origin, composition, and dynamics of these provinces remain controversial.
+For example, it has been suggested that plumes predominantly form at the edges of LLSVPs and that entrained material from LLSVPs explains the distinct chemical asymmetries found at certain hotspots.
+The PIs are proposing an experimental fluid dynamical study to explore how three proposed LLSVP structures control and interact with mantle plumes.
+These three structures represent the range of LLSVP formation hypotheses so far proposed: a) purely thermal; b) dense and deformable; c) undeformable and uncoupled.
+They will use state-of-the-art visualization tools, including scanning particle image velocimetry and thermometry to measure the three-dimensional temperature and flow fields, laser induced fluorescence, and Lagrangian analysis tools to locate plumes and quantify entrainment to very high spatial and temporal resolutions.
+The PIs seek to test both location control and whether entrainment at the edges explains the observed chemical asymmetry in hotspot lavas.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Although individual animals have long been considered a fundamental unit of evolution, we now know that each is really a co-dependent collection of host animal and microbes.
+This co-dependency reaches from ancient times through to the present day.
+Many animals depend on gut bacteria to process food and incorporate essential nutrients into the host's own tissues.
+To untangle the importance of this partnership for hosts and symbiotic gut bacteria, this project will study a diverse and ecologically important social animal group, the turtle ants.
+As social organisms, ants and humans share ways for acquiring helpful and harmful bacteria.
+State-of-the-art molecular and genomic methods will be used to investigate ancient and modern influences on the symbiosis, the function of the bacteria for host health, and the means of passage and maintenance of the bacterial symbionts over millions of years.
+Explaining global patterns of biodiversity and their drivers have long been central challenges in the fields of ecology and evolution.
+Increasingly, it is becoming apparent that biodiversity is itself a function of interactions across different levels of biological organization.
+Among the metazoans, symbioses with microbes are a defining feature, and individuals are integrated collections of host and symbiont cells, together defining the "holobiont".
+By studying the diverse and tractable turtle ant system, this research will address the relationships between symbiosis and the dimensions of holobiont biodiversity with unprecedented clarity.
+Specifically, this research will address: 1) the roles of time, biogeography, and habitat in host diversification (host taxonomic dimension); 2) variation in gut communities across host ant phylogeny, geography, habitat, and ecological niches (symbiont taxonomic dimension integrated with host taxonomic and functional dimensions); 3) the extent of codiversification for ~10 core, host-specific symbiont lineages, and the impacts of host phylogeny, geography, and ecology on symbiont transfer (symbiont taxonomic dimension integrated with host taxonomic and functional dimensions); 4) variation in genome evolution and innovation across symbionts with varying degrees of codiversification, and across genes with varying function (taxonomic, genetic, and functional integration of hosts and symbionts); and 5) symbiont function in light of symbiont genome evolution, host-symbiont codiversification, and host phylogeny, geography, and ecology (taxonomic, genetic, and functional integration of hosts and symbionts).
+With funding from the Chemical Structure, Dynamics and Mechanisms B Program of the NSF Chemistry Division, the collaborative research team of Professor Lehnert of University of Michigan and Professor Shearer of Trinity University investigates different Cobalt- and Nickel-based oxo complexes to improve the understanding of the structural and electronic properties of these unstable species.
+Metal-oxo species are often implicated in enzymatic and synthetic catalysis and play key roles in hormone biosynthesis, drug metabolism, and in photosynthesis.
+In the chemical and pharmaceutical industry, reactive metal-oxo complexes are used as catalysts for the production of chemical feedstocks and in the synthesis of fine chemicals and pharmaceuticals.
+Currently, scientists are lacking a detailed understanding of the properties of late-transition metal oxo species, which show great potential for applications in chemical catalysis, but which are underutilized as scientists cannot control their reactivity well.
+Professor Lehnert is the director of the D-RISE program, which provides 7-weeks, full-time summer research opportunities to high school students from Detroit that belong to underrepresented minority (URM) groups in science, technology, engineering and math (STEM) disciplines.
+The activities include funding for one high school student to participate in D-RISE.
+Professor Shearer conducts research exclusively with undergraduate students recruited through mechanisms that aim at increasing the participation of URM students in the sciences (in particular, Trinity University's McNair Scholar's program).
+Professor Lehnert and Professor Shearer are developing an understanding of the structural and electronic properties of a number of high-valent Co- and Nickel-oxo complexes.
+Especially the effect of the spin state on the electronic properties of these complexes is underappreciated; yet, as demonstrated for iron-oxo complexes, the spin state has a pivotal influence on the reactivity of these species.
+In the case of Co-oxo complexes, spin state also provides a potential pathway for a true violation of the "oxo wall", a concept that is considered a holy grail in high-valent metal-oxo chemistry.
+Another important dichotomy of metal-oxo complexes is the question of whether they are best represented as metal-oxo or metal-oxyl species, and how this influences their reactivity.
+Therefore, the research on the fundamental properties of high-valent Co- and Nickel-oxo complexes addresses many important fundamental questions about high-valent metal-oxo complexes with general (conceptual) implications for this area of research.
+The proposed research has broad implications with respect to further developing late first-row transition metal catalysts for water oxidation and the functionalization of organic molecules.
+In particular, bioinspired catalysts for the functionalization of organic molecules are highly sought after as industrial catalysts for the production of chemical feedstocks and pharmaceuticals.
+This project employs a large array of spectroscopic and theoretical methods, including electron paramagnetic resonance, magnetic circular dichroism, resonance Raman, and X-ray absorption spectroscopy.
+Theoretical methods (density functional theory and multi-reference quantum-chemical calculations) are used to interrogate the spectroscopic results, and connect them to electronic structure and reactivity.
+Professor Lehnert is actively engaged in STEM outreach programs focused on recruiting underrepresented minority (URM) high school students from Detroit to STEM fields.
+Professor Shearer's laboratory works exclusively with undergraduate (UG) students, which are recruited through mechanisms that aim at increasing the participation of URM UG students in the sciences (in particular, Trinity University's McNair Scholar's program).
+Both of these activities support the broader impacts of the project.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+In this project funded by the Chemical Structure Dynamics and Mechanism (CSDM-A) program of the Chemistry Division, Professor Daniela Kohen of Carleton College, is using state of the art computational techniques to study behavior within zeolites (molecular sieves).
+The goal of these studies is to provide a basic understanding of the processes that underlie the use of molecular sieves as filters to remove carbon dioxide from the atmosphere.
+In some of these materials, cations (atoms that have lost electrons) act as selective trapdoors, allowing some, but not all, gases to diffuse through.
+Computer simulations allow gaining microscopic insight into this interesting behavior.
+These studies offer a singular opportunity to gain fundamental understanding that can assess and guide the design and identification of materials useful in a variety of industrial processes.
+At Carleton College, a predominantly undergraduate institution, Professor Kohen actively engages undergraduate students in chemistry research.
+The students involved in this research study chemistry through the lens of molecular simulations, which provides them with a powerful tool to give new meaning to familiar concepts, as well as training that allows them to become proficient with complicated computations, an important benefit given the ever-increasing needs of our technological society.
+Zeolites are an attractive option for carbon dioxide capture in many industrial processes due to their variety and stability.
+However, some of their fundamental behaviors are not understood, which limits the ability to rationally design new materials or to improve existing ones.
+The shortage of experimental techniques that allow for the direct observation of cation motion, combined with the deficiency of appropriate computational models, has significantly limited understanding of cation motion at an atom by atom level.
+This understanding is not only of fundamental interest, but these motions can also be intimately related to behaviors that give zeolites useful properties in many practical applications.
+This project is an in-depth computational study of the motions of cations within zeolites.
+It aims to gain detailed microscopic understanding by a careful combination of well-established molecular dynamics simulation tools (where all atoms are treated as interacting objects) with recently developed ab initio molecular dynamics techniques (were atoms as treated as protons and electrons interacting with each other).
+Recent developments in computational techniques enable a systematic study of the dynamics of the cations and how they relate to zeolite geometry and chemical environment.
+This project characterizes and then compares cation dynamics within different zeolite families.
+These families are chosen to capitalize on existing experimental data and aim to contribute to fundamental understanding needed to develop critical applications.
+In addition to the research itself and its potential applications of our findings, a key component in the proposed activities is the training of undergraduates as active researchers that focus on fundamental understanding of behavior within thought-provoking and promising materials.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+This research project concerns algebraic geometry, the study of systems of polynomial equations in many variables.
+The project focuses on equations formulated in characteristic p for some prime number p.  The "characteristic p world" is one where, every time you take p steps forward, you wind up back where you start.
+Far from being esoteric, such mathematical systems describe the procession of the days of the week (p = 7), the fundamentals of computer architecture (p = 2), and also the setting for important cryptosystems.
+Algebraic geometry in characteristic p is the study of geometric objects ("varieties") given by solutions to polynomial equations in this setting.
+This project investigates the relationship between varieties in characteristic p and in characteristic zero ("standard" algebraic geometry), with the goal of shedding light on both worlds.
+Graduate students will take a major part in the research project.
+The research will be complemented by educational activities involving the undergraduate math club.
+The first part of this research project is devoted to understanding when branched Galois covers of curves lift from characteristic p to characteristic zero, and to obtaining information about the geometry and arithmetic of the lifts.
+In particular, the project aims to obtain a classification of the so-called "local Oort groups" and "weak local Oort groups".
+The second part of the project involves analyzing integral models of Galois covers of curves over p-adic fields.
+New tools involving deformation data shed light on stable models of Galois covers of curves with complicated Galois groups.
+These tools will be exploited further in order to understand stable models of Galois covers as explicitly as possible.
+With this award, the Chemical Synthesis Program of the Division of Chemistry supports the research of Professor Elizabeth Jarvo in the Department of Chemistry of the University of California, Irvine.
+Professor Jarvo is developing new ways to make carbon-containing molecules used in agriculture, pharmaceuticals, polymers and other materials.
+Traditional methods of making these molecules rely on precious metals that are limited in supply and thus, expensive and sometimes hard to obtain.
+Dr. Jarvo is trying to replace those metals with more earth abundant nickel-based reagents that would be more environmentally sustainable.
+With a focus on how the reaction occurs, the Jarvo laboratory is gaining new insight into carbon-carbon bond forming reactions that are important industrially.
+This project provides hands-on training to graduate and undergraduate students.
+Professor Jarvo also organizes career-development workshops that target female and underrepresented faculty and graduate students.
+She co-organizes a day-long research symposium for Southern California undergraduate students and participates in outreach programs that connect the UC Irvine campus to nearby underserved middle schools.
+Professor Elizabeth Jarvo is developing stereospecific cross-coupling and cross-electrophile coupling reactions of benzylic sulfonamides using nickel catalysts.
+These new, catalytic methods enable the synthesis of complex biologically active molecules.
+For example, the work is defining stereoselective strategies for the synthesis of cyclopropanes, a privileged moiety in medicinal chemistry.
+Importantly, mechanistic experiments clarify the factors that govern reactivity of organonickel complexes to favor two-electron reactions versus single-electron reactions, a long-standing challenge in development of nickel-catalyzed reactions.
+Structural characterization of organonickel intermediates provides experimental evidence for the oxidation state of key catalytic intermediates and facilitates the design of new catalysts.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+The Second Northeast Conference on Dynamical Systems will be held in the third weekend of September 2019.
+The conference is a part of a biennial conference series that periodically provides a forum for the dynamical systems community in the northeast area.
+The goal of this conference is to promote progress in dynamical systems by bringing together researchers in dynamical systems, presenting latest research progress, exchanging ideas, encouraging collaborations, and fostering young researchers and students.
+Invited speakers and participants come from many areas of dynamical systems with an emphasis of connections between dynamical systems and statistical physics.
+The conference will also arrange many short talks for young researchers to announce their recent results.
+More information can been found at: http://people.math.umass.edu/~yaoli/UmassConference-Overview.html.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+With this award, the Chemical Synthesis Program of the NSF Division of Chemistry is supporting the research of Professor David Mootoo of Hunter College of The City University of New York, on the synthesis and applications of carbohydrate and carbohydrate-like molecules (termed glycomimetics).
+Carbohydrates are involved in many biological functions including: tissue development, intracellular signaling, immune responses, cell-cell communication, cancer, metabolic disorders and pathogen infection.
+Understanding how carbohydrates are made and how they react adds to fundamental knowledge in cellular and molecular biology and provides insight across a variety of fields.
+In this context, there is a growing demand to make specific and diverse glycomimetics and to study their reactivities.
+While gycomimetics are desirable synthetic products, their structures are difficult to make because of their complexity.
+To this end, this research is developing robust methods for the synthesis of glycomimetics.
+This program links real-life problems in biology to chemistry solutions, thereby drawing students to the physical sciences and providing broad-based training for STEM careers.
+Professor Mootoo leverages potential applications to human health, the diverse 20,000-student body of Hunter College, and the unique cultural environment in New York City, to attract underrepresented high school and undergraduate students to STEM fields and the scientific workforce.
+The synthetic chemistry under investigation centers on the reactions of carbohydrate-derived crotylating agents with aldehydes and imines.
+While crotylating reagents are widely used in organic synthesis, carbohydrate variants have not been as extensively explored because of the high intrinsic reactivity of crotylating agents and the complexity and nuanced chemistry of carbohydrates.
+These issues are being mitigated by recent advances in organic synthesis and the expertise of Professor Mootoo in carbohydrate chemistry.
+A toolbox of tin, boron and silicon based reagents is being assembled and used to synthesize mimetics of biologically active glycosphingolipids and complex oligo-mannosides.
+The broader scientific impacts of this research include a better understanding of the immunological properties and anti-viral activities of these materials, including their role in communicable diseases.
+Given the often idiosyncratic reactivity of carbohydrates, this project is also unveiling unique reactivity profiles that can inform innovative paradigms for complex molecule synthesis.
+Finally, the research also provides excellent training for the graduate students and undergraduates that will work on this project alongside Professor Mootoo.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+Ethylene is an important chemicals in modern society, with impacts ranging from the production of plastics and other chemicals to playing a significant role in the food supply chain as the primary ripening hormone of some fruit.
+As a result, there has been a significant effort to detect this small molecule via instrumentation and with molecular recognition.
+While these efforts have led to some sensitive approaches for ethylene detection, methods for detecting ethylene in complex environments (such as inside a plant cell) do not currently exist.
+In this project, Professor Michel of the University of Denver is developing new small molecule probes that increase fluorescence upon reaction with ethylene.
+An understanding of the relationship between the structure of the probe and its signaling property in a specific environment are critical to the sensitive detection of ethylene.
+Fluorescent and color-producing probes have the unique ability to produce color within otherwise invisible chemical processes.
+This research is being developed into an integrated lecture-lab module for undergraduate organic students to provide context to underrepresented topics.
+Professor Michel develops outreach demonstrations at local high schools.
+Due to the desire to understand and control ethylene in the fruit supply chain, this research may have a broader impact on society by increasing the understanding of the molecular roles of ethylene in the ripening processes; thereby preventing premature food spoilage and reducing agricultural waste.
+Further, the graduate and undergraduate students working on this project are underrepresented minorities who are gaining a unique skill set due to the interdisciplinary nature of this project.
+With funding from the Chemical Structure, Dynamics, and Mechanisms B program of the Chemistry Division, Professor Michel of the University of Denver is developing new small molecule fluorescent probes for the detection of ethylene.
+Due to the relatively small and unreactive nature of ethylene under the confined conditions of living systems, an organometallic-based approach is being developed, which requires a fundamental understanding of the relationship between the ligands bound to the metal center and stoichiometric reactivity with ethylene.
+This research determines the optimal probes for a particular application, such as the detection of ethylene in relevant biological systems including A. thaliana and E. coli.
+Detection of ethylene in these organisms is being investigated with probe modifications tailored to the specific goals and challenges presented by these systems.
+The detection of gaseous ethylene in the atmosphere including from ripening fruit is also being investigated.
+This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.

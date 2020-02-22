@@ -1,0 +1,40 @@
+PUT _template/template_nsf
+{
+  "index_patterns": "nsf*",
+  "settings": {
+    "number_of_shards": 3,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "dynamic_templates": [
+      {
+        "amount_as_int": {
+          "match_mapping_type": "string",
+          "match": "*Amount",
+          "mapping": {
+            "type": "long"
+          }
+        }
+      },
+      {
+        "award_date": {
+          "match_mapping_type": "string",
+          "match": "*Date",
+          "mapping": {
+            "type": "date",
+            "format": "MM/dd/yyyy"
+          }
+        }
+      },
+      {
+        "code_keyword": {
+          "match_mapping_type": "string",
+          "match": "*Code",
+          "mapping": {
+            "type":"keyword"
+          }
+        }
+      }
+    ]
+  }
+}
